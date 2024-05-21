@@ -14,7 +14,7 @@ app.use((0, cors_1.default)({
     origin: "*",
 }));
 app.get("/", (req, res) => {
-    res.send("Welcome to Express & TypeScript Server");
+    res.send("Welcome to Express & TypeScript Server 🤲");
 });
 app.listen(port, () => {
     console.log(`Server is Fire at http://localhost:${port}`);
